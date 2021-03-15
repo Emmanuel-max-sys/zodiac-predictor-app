@@ -1,0 +1,1 @@
+# zodiac-predictor-app
