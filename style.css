@@ -1,0 +1,37 @@
+body{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+/* form{
+    font-size: 3em;
+} */
+
+input{
+    padding: 2em;
+    text-decoration: solid;
+    text-align: center;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+button{
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.main{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+/* .print {
+    display: none;
+} */
+
+.card{
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: black;
+}

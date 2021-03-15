@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Personality</title>
+</head>
+<body>
+    <h1>Zodiac Personality</h1>
+    <h3>Discover the kind of person you are based on your Zodiac</h3>
+
+
+    <div class="main">
+        <form action="">
+            <label for="Name">Name</label>
+            <input type="text" id="name">
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="dob">
+            <br>
+        </form>
+        <button type="submit" id="check">Check Personality</button>
+        <hr>
+
+    </div>
+
+    <div class="print">
+        <h2>Result:</h2>
+        <h3 id="result">Personality loading...</h3>
+        <div class="card">
+            <div class="card-body">
+              This is some text within a card body.
+            </div>
+          </div>
+    </div>
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
